@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App </title>
+    <link rel="stylesheet" href="style.css"> <!-- 引入CSS -->
+    <!-- 引入font 链接 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>待处理事项</header>
+    <div class="inputField">
+      <input type="text" placeholder="请添加待办事项">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- 数据来自本地存储 -->
+    </ul>
+    <div class="footer">
+      <span>亲，你有 <span class="pendingTasks"></span> 个待处理任务</span>
+      <button>清空</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- 引入JS -->
+
+</body>
+</html>
+
+
